@@ -29,6 +29,11 @@ public:
 	 */
 	static GDraw* create();
 	
+	/**
+	 * draw (called in every frame)
+	 */
+	virtual void draw(void);
+	
 private:
 	/**
 	 * GDraw initialise
@@ -38,13 +43,12 @@ private:
 	/**
 	 * draw point
 	 */
-	void drawPoint();
+	void drawPoint(CCPoint point, ccColor4F color);
 	
 	/**
 	 * draw line
 	 */
-	
-	void drawLine();
+	void drawLine(CCPoint origin, CCPoint destination, ccColor4F color);
 	
 	/**
 	 * draw plane
@@ -85,6 +89,7 @@ private:
 	 * clip image
 	 */
 	void clipImage(const char* imageFileName, CCPoint& point, CCRect& rect);
+	
 };
 
 #endif /* defined(__project_prophase__GDraw__) */

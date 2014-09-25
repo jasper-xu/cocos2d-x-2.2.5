@@ -10,3 +10,19 @@ projects/project-prophase/proj.ios/project-prophase.xcodeproj/xcuserdata/jasper.
 projects/project-prophase/proj.ios/project-prophase.xcodeproj/xcuserdata/jasper.xcuserdatad/xcschemes/xcschememanagement.plist
 
 projects/project-prophase/proj.ios/project-prophase.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+*.xcworkspacedata
+
+*.xcbkptlist
+
+samples/Cpp/TestCpp/proj.ios/TestCpp.xcodeproj/project.xcworkspace/xcshareddata/TestCpp.xccheckout
+
+samples/Cpp/TestCpp/proj.ios/TestCpp.xcodeproj/xcuserdata/jasper.xcuserdatad/xcschemes/xcschememanagement.plist
+
+samples/Cpp/TestCpp/proj.ios/TestCpp.xcodeproj/project.xcworkspace/xcuserdata/jasper.xcuserdatad/UserInterfaceState.xcuserstate
+
+projects/project-prophase/proj.ios/project-prophase.xcodeproj/xcuserdata/jasper.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+
+projects/project-prophase/proj.ios/project-prophase.xcodeproj/xcuserdata/jasper.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+
+*.xcbkptlist
