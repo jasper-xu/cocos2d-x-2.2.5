@@ -73,6 +73,20 @@ void GDraw::drawRect(CCPoint origin, CCPoint destination, ccColor4F color)
 	ccDrawPoly(points, 4, true);
 }
 
+/**
+ * fill rect
+ */
+void GDraw::fillRect(CCPoint origin, CCPoint destination, ccColor4F color)
+{
+	CCLOG("=== fillRect");
+	
+	//	set the array of points
+	CCPoint points[] = {ccp(origin.x, origin.y), ccp(destination.x, origin.y), ccp(destination.x, destination.y), ccp(origin.x, destination.y)};
+	
+	//	draw rect
+	ccDrawSolidPoly(points, 4, color);
+}
+
 void GDraw::drawCircleLine()
 {
 
@@ -187,8 +201,70 @@ void GDraw::draw(void)
 	//	----------------- draw line end -----------------
 	
 	//	----------------- draw rect begin -----------------
-	//	set size of rect
-	glLineWidth(1.0f);
+//	//	set size of rect
+//	glLineWidth(1.0f);
+//	
+//	//	draw n rects
+//	x1 = winSize.width * 0.1f;
+//	y1 = winSize.height * 0.1f;
+//	x2 = winSize.width * 0.5f;
+//	y2 = winSize.height * 0.5f;
+//	r = 1.0f;
+//	g = 0.0f;
+//	b = 0.0f;
+//	gapH = 5.0f;
+//	gapV = 6.0f;
+//	for (int i = 0; i < num; i++) {
+//		drawRect(ccp(x1, y1), ccp(x2, y2), ccc4f(r, g, b, 1.0f));
+//		x1 += gapH;
+//		if (x1 > winSize.width) {
+//			x1 -= winSize.width;
+//		} else if (x1 < 0) {
+//			x1 += winSize.width;
+//		}
+//		y1 += gapV;
+//		if (y1 > winSize.height) {
+//			y1 -= winSize.height;
+//		} else if (y1 < 0) {
+//			y1 += winSize.height;
+//		}
+//		x2 += gapH;
+//		if (x2 > winSize.width) {
+//			x2 -= winSize.width;
+//		} else if (x1 < 0) {
+//			x2 += winSize.width;
+//		}
+//		y2 += gapV;
+//		if (y2 > winSize.height) {
+//			y2 -= winSize.height;
+//		} else if (y1 < 0) {
+//			y2 += winSize.height;
+//		}
+//		r -= 0.05f;
+//		if (r < 0) {
+//			r = 1.0f;
+//		} else if (r > 1.0f) {
+//			r = 0.0f;
+//		}
+//		g -= 0.04f;
+//		if (g < 0) {
+//			g = 1.0f;
+//		} else if (r > 1.0f) {
+//			g = 0.0f;
+//		}
+//		b -= 0.07f;
+//		if (b < 0) {
+//			b = 1.0f;
+//		} else if (r > 1.0f) {
+//			b = 0.0f;
+//		}
+//	}
+//	
+//	//	draw single rect
+//	drawRect(ccp(winSize.width * 0.25f, winSize.height * 0.25f), ccp(winSize.width * 0.75f, winSize.height * 0.75f), ccc4f(1.0f, 0.0f, 0.0f, 1.0f));
+	//	----------------- draw rect end -----------------
+	
+	//	----------------- fill rect begin -----------------
 	
 	//	draw n rects
 	x1 = winSize.width * 0.1f;
@@ -201,7 +277,7 @@ void GDraw::draw(void)
 	gapH = 5.0f;
 	gapV = 6.0f;
 	for (int i = 0; i < num; i++) {
-		drawRect(ccp(x1, y1), ccp(x2, y2), ccc4f(r, g, b, 1.0f));
+		fillRect(ccp(x1, y1), ccp(x2, y2), ccc4f(r, g, b, 1.0f));
 		x1 += gapH;
 		if (x1 > winSize.width) {
 			x1 -= winSize.width;
@@ -246,8 +322,8 @@ void GDraw::draw(void)
 		}
 	}
 	
-	//	draw single rect
-	drawRect(ccp(winSize.width * 0.25f, winSize.height * 0.25f), ccp(winSize.width * 0.75f, winSize.height * 0.75f), ccc4f(1.0f, 0.0f, 0.0f, 1.0f));
-	//	----------------- draw rect end -----------------
+	//	fill single rect
+	fillRect(ccp(winSize.width * 0.25f, winSize.height * 0.25f), ccp(winSize.width * 0.75f, winSize.height * 0.75f), ccc4f(1.0f, 0.0f, 0.0f, 1.0f));
+	//	----------------- fill rect end -----------------
 	
 }

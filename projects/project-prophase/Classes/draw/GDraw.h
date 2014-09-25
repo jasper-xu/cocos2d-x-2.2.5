@@ -51,9 +51,14 @@ private:
 	void drawLine(CCPoint origin, CCPoint destination, ccColor4F color);
 	
 	/**
-	 * draw drawRect
+	 * draw rect
 	 */
 	void drawRect(CCPoint origin, CCPoint destination, ccColor4F color);
+	
+	/**
+	 * fill rect
+	 */
+	void fillRect(CCPoint origin, CCPoint destination, ccColor4F color);
 	
 	/**
 	 * draw Circle line
