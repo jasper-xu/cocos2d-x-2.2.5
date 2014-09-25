@@ -51,9 +51,9 @@ private:
 	void drawLine(CCPoint origin, CCPoint destination, ccColor4F color);
 	
 	/**
-	 * draw plane
+	 * draw drawRect
 	 */
-	void drawPlane();
+	void drawRect(CCPoint origin, CCPoint destination, ccColor4F color);
 	
 	/**
 	 * draw Circle line
