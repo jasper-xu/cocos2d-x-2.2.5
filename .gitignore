@@ -10,3 +10,7 @@ projects/project-prophase/proj.ios/project-prophase.xcodeproj/xcuserdata/jasper.
 projects/project-prophase/proj.ios/project-prophase.xcodeproj/xcuserdata/jasper.xcuserdatad/xcschemes/xcschememanagement.plist
 
 projects/project-prophase/proj.ios/project-prophase.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+*.xcscheme
+
+cocos2dx/proj.mac/cocos2dx.xcodeproj/xcuserdata/jasper.xcuserdatad/xcschemes/xcschememanagement.plist
