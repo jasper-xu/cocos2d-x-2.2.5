@@ -1,6 +1,7 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
 #include "GDraw.h"
+#include "IntroLoader.h"
 
 USING_NS_CC;
 
@@ -28,9 +29,26 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // create a scene. it's an autorelease object
 //    CCScene *pScene = HelloWorld::scene();
 	
+	//	绘图
+//	CCScene* pScene = CCScene::create();
+//	GDraw* draw = GDraw::create();
+//	pScene->addChild(draw);
+	
+	//	cocosbuilder的使用
+	CCNodeLoaderLibrary* ccNodeLoaderLibrary = CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary();
+	ccNodeLoaderLibrary->registerCCNodeLoader("Intro", IntroLoader::loader());
+	
+	/* Create an autorelease CCBReader. */
+	cocos2d::extension::CCBReader* ccbReader = new cocos2d::extension::CCBReader(ccNodeLoaderLibrary);
+	
+	/* Read a ccbi file. */
+	CCNode * node = ccbReader->readNodeGraphFromFile("MainScene.ccbi");
+//	CCNode * node = ccbReader->readNodeGraphFromFile("HelloCocosBuilder.ccbi");
+	
+	ccbReader->release();
+	
 	CCScene* pScene = CCScene::create();
-	GDraw* draw = GDraw::create();
-	pScene->addChild(draw);
+	pScene->addChild(node);
 	
     // run
     pDirector->runWithScene(pScene);
