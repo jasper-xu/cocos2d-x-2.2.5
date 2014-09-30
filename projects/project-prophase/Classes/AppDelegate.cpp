@@ -1,5 +1,8 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
+#include "GDraw.h"
+#include "IntroLoader.h"
+#include "Intro.h"
 
 USING_NS_CC;
 
@@ -25,8 +28,26 @@ bool AppDelegate::applicationDidFinishLaunching() {
     pDirector->setAnimationInterval(1.0 / 60);
 
     // create a scene. it's an autorelease object
-    CCScene *pScene = HelloWorld::scene();
-
+//    CCScene *pScene = HelloWorld::scene();
+	
+	//	测试绘制接口
+//	CCScene *pScene = CCScene::create();
+//    
+//    GDraw* draw = GDraw::create();
+//	pScene->addChild(draw);
+	
+	//	测试cocosbuilder
+	CCNodeLoaderLibrary* ccNodeLoaderLibrary = CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary();
+	ccNodeLoaderLibrary->registerCCNodeLoader("Intro", IntroLoader::loader());
+	
+	CCBReader* ccbReader = new CCBReader(ccNodeLoaderLibrary);
+	
+	CCNode* node = ccbReader->readNodeGraphFromFile("MainScene.ccbi");
+	ccbReader->release();
+	
+	CCScene *pScene = CCScene::create();
+	pScene->addChild(node);
+	
     // run
     pDirector->runWithScene(pScene);
 
