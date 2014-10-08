@@ -38,11 +38,12 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	
 	//	测试cocosbuilder
 	CCNodeLoaderLibrary* ccNodeLoaderLibrary = CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary();
-	ccNodeLoaderLibrary->registerCCNodeLoader("Intro", IntroLoader::loader());
+	ccNodeLoaderLibrary->registerCCNodeLoader("CcbBase", IntroLoader::loader());
 	
 	CCBReader* ccbReader = new CCBReader(ccNodeLoaderLibrary);
 	
-	CCNode* node = ccbReader->readNodeGraphFromFile("MainScene.ccbi");
+//	CCNode* node = ccbReader->readNodeGraphFromFile("MainScene.ccbi");
+	CCNode* node = ccbReader->readNodeGraphFromFile("HelloWorld.ccbi");
 	ccbReader->release();
 	
 	CCScene *pScene = CCScene::create();

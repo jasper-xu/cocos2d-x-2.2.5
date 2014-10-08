@@ -32,9 +32,10 @@ public:
 		CCLOG("==== 按钮点击");
     }
     
-    virtual cocos2d::SEL_MenuHandler onResolveCCBCCMenuItemSelector(CCObject* pTarget, const char* pSelectorName)
+    cocos2d::SEL_MenuHandler onResolveCCBCCMenuItemSelector(CCObject* pTarget, const char* pSelectorName)
 	{
         CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "btnPlay", Intro::btnPlay);  // 把btnPlay对应回调函数,btnPlay的设置在“编辑ccb文件－－按钮”中介绍了
+		return NULL;
     }
 };
 
