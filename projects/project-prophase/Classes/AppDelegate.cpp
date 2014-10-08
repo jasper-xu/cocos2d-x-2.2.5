@@ -46,6 +46,11 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	CCNode* node = ccbReader->readNodeGraphFromFile("HelloWorld.ccbi");
 	ccbReader->release();
 	
+	CCLabelTTF* ttf = dynamic_cast<CCLabelTTF*>(node->getChildByTag(123));
+	if (ttf) {
+		ttf->setString("大家好");
+	}
+	
 	CCScene *pScene = CCScene::create();
 	pScene->addChild(node);
 	
