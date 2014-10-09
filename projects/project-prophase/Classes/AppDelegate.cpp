@@ -54,6 +54,14 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	CCScene *pScene = CCScene::create();
 	pScene->addChild(node);
 	
+	CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+	
+	//	粒子系统
+	CCParticleSystem* particle = CCParticleSystemQuad::create("smoke.plist");
+	particle->setPosition(ccp(winSize.width * 0.5f, winSize.height * 0.5f));
+	pScene->addChild(particle);
+	
+	
     // run
     pDirector->runWithScene(pScene);
 

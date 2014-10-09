@@ -269,6 +269,7 @@
 		A426182719E52C6900F55A32 /* HelloWorld.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = A426181719E52C6900F55A32 /* HelloWorld.ccbi */; };
 		A426182819E52C6900F55A32 /* MainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = A426181819E52C6900F55A32 /* MainScene.ccbi */; };
 		A426182919E52C6900F55A32 /* MainScene.js in Sources */ = {isa = PBXBuildFile; fileRef = A426181919E52C6900F55A32 /* MainScene.js */; };
+		A49B443119E69064007BE1E2 /* smoke.plist in Resources */ = {isa = PBXBuildFile; fileRef = A49B443019E69064007BE1E2 /* smoke.plist */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -830,6 +831,7 @@
 		A426181719E52C6900F55A32 /* HelloWorld.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelloWorld.ccbi; sourceTree = "<group>"; };
 		A426181819E52C6900F55A32 /* MainScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainScene.ccbi; sourceTree = "<group>"; };
 		A426181919E52C6900F55A32 /* MainScene.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MainScene.js; sourceTree = "<group>"; };
+		A49B443019E69064007BE1E2 /* smoke.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = smoke.plist; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -1981,6 +1983,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A49B442F19E69064007BE1E2 /* particle */,
 				A426180519E52C6900F55A32 /* ccbResources */,
 				A426181619E52C6900F55A32 /* fileLookup.plist */,
 				A426181719E52C6900F55A32 /* HelloWorld.ccbi */,
@@ -2075,6 +2078,14 @@
 			path = "resources-iphonehd";
 			sourceTree = "<group>";
 		};
+		A49B442F19E69064007BE1E2 /* particle */ = {
+			isa = PBXGroup;
+			children = (
+				A49B443019E69064007BE1E2 /* smoke.plist */,
+			);
+			path = particle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2148,6 +2159,7 @@
 				A426181B19E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
 				7855E0E1153FEF240059DD9A /* Default.png in Resources */,
 				A426181F19E52C6900F55A32 /* ccbParticleStars.png in Resources */,
+				A49B443119E69064007BE1E2 /* smoke.plist in Resources */,
 				A426182719E52C6900F55A32 /* HelloWorld.ccbi in Resources */,
 				A426181D19E52C6900F55A32 /* ccbParticleSmoke.png in Resources */,
 				A426181C19E52C6900F55A32 /* ccbParticleFire.png in Resources */,
