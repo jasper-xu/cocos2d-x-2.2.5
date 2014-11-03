@@ -3,6 +3,7 @@
 #include "GDraw.h"
 #include "IntroLoader.h"
 #include "Intro.h"
+#include "HelloWorldStudio.h"
 
 USING_NS_CC;
 
@@ -36,31 +37,36 @@ bool AppDelegate::applicationDidFinishLaunching() {
 //    GDraw* draw = GDraw::create();
 //	pScene->addChild(draw);
 	
-	//	测试cocosbuilder
-	CCNodeLoaderLibrary* ccNodeLoaderLibrary = CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary();
-	ccNodeLoaderLibrary->registerCCNodeLoader("CcbBase", IntroLoader::loader());
+//	//	测试cocosbuilder
+//	CCNodeLoaderLibrary* ccNodeLoaderLibrary = CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary();
+//	ccNodeLoaderLibrary->registerCCNodeLoader("CcbBase", IntroLoader::loader());
+//	
+//	CCBReader* ccbReader = new CCBReader(ccNodeLoaderLibrary);
+//	
+////	CCNode* node = ccbReader->readNodeGraphFromFile("MainScene.ccbi");
+//	CCNode* node = ccbReader->readNodeGraphFromFile("HelloWorld.ccbi");
+//	ccbReader->release();
+//	
+//	CCLabelTTF* ttf = dynamic_cast<CCLabelTTF*>(node->getChildByTag(123));
+//	if (ttf) {
+//		ttf->setString("大家好");
+//	}
+//	
+//	CCScene *pScene = CCScene::create();
+//	pScene->addChild(node);
+//	
+//	CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+//	
+//	//	粒子系统
+//	CCParticleSystem* particle = CCParticleSystemQuad::create("smoke.plist");
+//	particle->setPosition(ccp(winSize.width * 0.5f, winSize.height * 0.5f));
+//	pScene->addChild(particle);
 	
-	CCBReader* ccbReader = new CCBReader(ccNodeLoaderLibrary);
-	
-//	CCNode* node = ccbReader->readNodeGraphFromFile("MainScene.ccbi");
-	CCNode* node = ccbReader->readNodeGraphFromFile("HelloWorld.ccbi");
-	ccbReader->release();
-	
-	CCLabelTTF* ttf = dynamic_cast<CCLabelTTF*>(node->getChildByTag(123));
-	if (ttf) {
-		ttf->setString("大家好");
-	}
-	
+	//	骨骼动画
 	CCScene *pScene = CCScene::create();
-	pScene->addChild(node);
-	
-	CCSize winSize = CCDirector::sharedDirector()->getWinSize();
-	
-	//	粒子系统
-	CCParticleSystem* particle = CCParticleSystemQuad::create("smoke.plist");
-	particle->setPosition(ccp(winSize.width * 0.5f, winSize.height * 0.5f));
-	pScene->addChild(particle);
-	
+    
+    HelloWorldStudio *helloworldStudio = HelloWorldStudio::create();
+	pScene->addChild(helloworldStudio);
 	
     // run
     pDirector->runWithScene(pScene);

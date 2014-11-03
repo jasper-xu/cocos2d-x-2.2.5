@@ -253,6 +253,7 @@
 		A4036CC619DA628400EC18E5 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = A4036CC319DA628400EC18E5 /* Icon-76.png */; };
 		A4036CC719DA628400EC18E5 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = A4036CC419DA628400EC18E5 /* Icon-120.png */; };
 		A4036CC819DA628400EC18E5 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = A4036CC519DA628400EC18E5 /* Icon-152.png */; };
+		A4040E051A038C6A00D2F1E4 /* HelloWorldStudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4040E031A038C6A00D2F1E4 /* HelloWorldStudio.cpp */; };
 		A426181A19E52C6900F55A32 /* ccbDefaultImages.plist in Resources */ = {isa = PBXBuildFile; fileRef = A426180619E52C6900F55A32 /* ccbDefaultImages.plist */; };
 		A426181B19E52C6900F55A32 /* ccbDefaultImages.png in Resources */ = {isa = PBXBuildFile; fileRef = A426180719E52C6900F55A32 /* ccbDefaultImages.png */; };
 		A426181C19E52C6900F55A32 /* ccbParticleFire.png in Resources */ = {isa = PBXBuildFile; fileRef = A426180819E52C6900F55A32 /* ccbParticleFire.png */; };
@@ -269,6 +270,9 @@
 		A426182719E52C6900F55A32 /* HelloWorld.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = A426181719E52C6900F55A32 /* HelloWorld.ccbi */; };
 		A426182819E52C6900F55A32 /* MainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = A426181819E52C6900F55A32 /* MainScene.ccbi */; };
 		A426182919E52C6900F55A32 /* MainScene.js in Sources */ = {isa = PBXBuildFile; fileRef = A426181919E52C6900F55A32 /* MainScene.js */; };
+		A42FBB3A1A07356D00068753 /* Dragon.plist in Resources */ = {isa = PBXBuildFile; fileRef = A42FBB371A07356D00068753 /* Dragon.plist */; };
+		A42FBB3B1A07356D00068753 /* Dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = A42FBB381A07356D00068753 /* Dragon.png */; };
+		A42FBB3C1A07356D00068753 /* Dragon.xml in Resources */ = {isa = PBXBuildFile; fileRef = A42FBB391A07356D00068753 /* Dragon.xml */; };
 		A49B443119E69064007BE1E2 /* smoke.plist in Resources */ = {isa = PBXBuildFile; fileRef = A49B443019E69064007BE1E2 /* smoke.plist */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
@@ -815,6 +819,8 @@
 		A4036CC319DA628400EC18E5 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = SOURCE_ROOT; };
 		A4036CC419DA628400EC18E5 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = SOURCE_ROOT; };
 		A4036CC519DA628400EC18E5 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = SOURCE_ROOT; };
+		A4040E031A038C6A00D2F1E4 /* HelloWorldStudio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldStudio.cpp; sourceTree = "<group>"; };
+		A4040E041A038C6A00D2F1E4 /* HelloWorldStudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldStudio.h; sourceTree = "<group>"; };
 		A426180619E52C6900F55A32 /* ccbDefaultImages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ccbDefaultImages.plist; sourceTree = "<group>"; };
 		A426180719E52C6900F55A32 /* ccbDefaultImages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccbDefaultImages.png; sourceTree = "<group>"; };
 		A426180819E52C6900F55A32 /* ccbParticleFire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccbParticleFire.png; sourceTree = "<group>"; };
@@ -831,6 +837,9 @@
 		A426181719E52C6900F55A32 /* HelloWorld.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelloWorld.ccbi; sourceTree = "<group>"; };
 		A426181819E52C6900F55A32 /* MainScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainScene.ccbi; sourceTree = "<group>"; };
 		A426181919E52C6900F55A32 /* MainScene.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MainScene.js; sourceTree = "<group>"; };
+		A42FBB371A07356D00068753 /* Dragon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Dragon.plist; sourceTree = "<group>"; };
+		A42FBB381A07356D00068753 /* Dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dragon.png; sourceTree = "<group>"; };
+		A42FBB391A07356D00068753 /* Dragon.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Dragon.xml; sourceTree = "<group>"; };
 		A49B443019E69064007BE1E2 /* smoke.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = smoke.plist; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -1365,6 +1374,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A4040E021A038C5500D2F1E4 /* studio */,
 				A4036BEA19DA624100EC18E5 /* AppMacros.h */,
 				A4036BEB19DA624100EC18E5 /* ccbi */,
 				A4036BF219DA624100EC18E5 /* draw */,
@@ -1983,6 +1993,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A42FBB351A07356D00068753 /* ccs-res */,
 				A49B442F19E69064007BE1E2 /* particle */,
 				A426180519E52C6900F55A32 /* ccbResources */,
 				A426181619E52C6900F55A32 /* fileLookup.plist */,
@@ -2025,6 +2036,15 @@
 				A4036BF419DA624100EC18E5 /* GDraw.h */,
 			);
 			path = draw;
+			sourceTree = "<group>";
+		};
+		A4040E021A038C5500D2F1E4 /* studio */ = {
+			isa = PBXGroup;
+			children = (
+				A4040E031A038C6A00D2F1E4 /* HelloWorldStudio.cpp */,
+				A4040E041A038C6A00D2F1E4 /* HelloWorldStudio.h */,
+			);
+			path = studio;
 			sourceTree = "<group>";
 		};
 		A426180519E52C6900F55A32 /* ccbResources */ = {
@@ -2076,6 +2096,24 @@
 				A426181519E52C6900F55A32 /* ccbDefaultImages.png */,
 			);
 			path = "resources-iphonehd";
+			sourceTree = "<group>";
+		};
+		A42FBB351A07356D00068753 /* ccs-res */ = {
+			isa = PBXGroup;
+			children = (
+				A42FBB361A07356D00068753 /* armature */,
+			);
+			path = "ccs-res";
+			sourceTree = "<group>";
+		};
+		A42FBB361A07356D00068753 /* armature */ = {
+			isa = PBXGroup;
+			children = (
+				A42FBB371A07356D00068753 /* Dragon.plist */,
+				A42FBB381A07356D00068753 /* Dragon.png */,
+				A42FBB391A07356D00068753 /* Dragon.xml */,
+			);
+			path = armature;
 			sourceTree = "<group>";
 		};
 		A49B442F19E69064007BE1E2 /* particle */ = {
@@ -2163,12 +2201,14 @@
 				A426182719E52C6900F55A32 /* HelloWorld.ccbi in Resources */,
 				A426181D19E52C6900F55A32 /* ccbParticleSmoke.png in Resources */,
 				A426181C19E52C6900F55A32 /* ccbParticleFire.png in Resources */,
+				A42FBB3C1A07356D00068753 /* Dragon.xml in Resources */,
 				D4EF949A15BD2D8B00D803EB /* Icon-57.png in Resources */,
 				D4EF949C15BD2D8E00D803EB /* Icon-114.png in Resources */,
 				A426181A19E52C6900F55A32 /* ccbDefaultImages.plist in Resources */,
 				D4EF949E15BD2D9600D803EB /* Icon-72.png in Resources */,
 				A426182019E52C6900F55A32 /* ccbDefaultImages.plist in Resources */,
 				A426182319E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
+				A42FBB3B1A07356D00068753 /* Dragon.png in Resources */,
 				A426182119E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
 				D4EF94A015BD2D9800D803EB /* Icon-144.png in Resources */,
 				A426182419E52C6900F55A32 /* ccbDefaultImages.plist in Resources */,
@@ -2179,6 +2219,7 @@
 				A426182519E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
 				A426182219E52C6900F55A32 /* ccbDefaultImages.plist in Resources */,
 				A426182819E52C6900F55A32 /* MainScene.ccbi in Resources */,
+				A42FBB3A1A07356D00068753 /* Dragon.plist in Resources */,
 				A426181E19E52C6900F55A32 /* ccbParticleSnow.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 				A4036CC719DA628400EC18E5 /* Icon-120.png in Resources */,
@@ -2302,6 +2343,7 @@
 				15A3D9B11682F7F9002FB0C5 /* cpSweep1D.c in Sources */,
 				15C0B588196D412F007F909D /* ImageViewReader.cpp in Sources */,
 				15A3D9B21682F7F9002FB0C5 /* cpVect.c in Sources */,
+				A4040E051A038C6A00D2F1E4 /* HelloWorldStudio.cpp in Sources */,
 				15A3DA311682F826002FB0C5 /* CCBAnimationManager.cpp in Sources */,
 				15C0B557196D412F007F909D /* CCProcessBase.cpp in Sources */,
 				15A3DA321682F826002FB0C5 /* CCBFileLoader.cpp in Sources */,
@@ -2446,8 +2488,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 敏 宋 (259D4DU467)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 敏 宋 (259D4DU467)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -2483,8 +2525,8 @@
 				);
 				OTHER_CFLAGS = "-O2";
 				PRODUCT_NAME = "project-prophase";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "9cc29c01-fd55-4a05-84ed-2a4c5ec9c111";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9cc29c01-fd55-4a05-84ed-2a4c5ec9c111";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -2496,8 +2538,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 敏 宋 (259D4DU467)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 敏 宋 (259D4DU467)";
 				COPY_PHASE_STRIP = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2530,8 +2572,8 @@
 					"\"$(SRCROOT)/../../../external/libwebsockets/ios/lib\"",
 				);
 				PRODUCT_NAME = "project-prophase";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "9cc29c01-fd55-4a05-84ed-2a4c5ec9c111";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9cc29c01-fd55-4a05-84ed-2a4c5ec9c111";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
