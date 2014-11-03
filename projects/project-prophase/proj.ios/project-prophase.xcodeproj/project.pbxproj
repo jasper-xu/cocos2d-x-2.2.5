@@ -273,6 +273,9 @@
 		A42FBB3A1A07356D00068753 /* Dragon.plist in Resources */ = {isa = PBXBuildFile; fileRef = A42FBB371A07356D00068753 /* Dragon.plist */; };
 		A42FBB3B1A07356D00068753 /* Dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = A42FBB381A07356D00068753 /* Dragon.png */; };
 		A42FBB3C1A07356D00068753 /* Dragon.xml in Resources */ = {isa = PBXBuildFile; fileRef = A42FBB391A07356D00068753 /* Dragon.xml */; };
+		A449FF6C1A07822C00D5320F /* NewProject.ExportJson in Resources */ = {isa = PBXBuildFile; fileRef = A449FF691A07822C00D5320F /* NewProject.ExportJson */; };
+		A449FF6D1A07822C00D5320F /* NewProject0.plist in Resources */ = {isa = PBXBuildFile; fileRef = A449FF6A1A07822C00D5320F /* NewProject0.plist */; };
+		A449FF6E1A07822C00D5320F /* NewProject0.png in Resources */ = {isa = PBXBuildFile; fileRef = A449FF6B1A07822C00D5320F /* NewProject0.png */; };
 		A49B443119E69064007BE1E2 /* smoke.plist in Resources */ = {isa = PBXBuildFile; fileRef = A49B443019E69064007BE1E2 /* smoke.plist */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
@@ -840,6 +843,9 @@
 		A42FBB371A07356D00068753 /* Dragon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Dragon.plist; sourceTree = "<group>"; };
 		A42FBB381A07356D00068753 /* Dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dragon.png; sourceTree = "<group>"; };
 		A42FBB391A07356D00068753 /* Dragon.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Dragon.xml; sourceTree = "<group>"; };
+		A449FF691A07822C00D5320F /* NewProject.ExportJson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NewProject.ExportJson; sourceTree = "<group>"; };
+		A449FF6A1A07822C00D5320F /* NewProject0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewProject0.plist; sourceTree = "<group>"; };
+		A449FF6B1A07822C00D5320F /* NewProject0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewProject0.png; sourceTree = "<group>"; };
 		A49B443019E69064007BE1E2 /* smoke.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = smoke.plist; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -2109,6 +2115,9 @@
 		A42FBB361A07356D00068753 /* armature */ = {
 			isa = PBXGroup;
 			children = (
+				A449FF691A07822C00D5320F /* NewProject.ExportJson */,
+				A449FF6A1A07822C00D5320F /* NewProject0.plist */,
+				A449FF6B1A07822C00D5320F /* NewProject0.png */,
 				A42FBB371A07356D00068753 /* Dragon.plist */,
 				A42FBB381A07356D00068753 /* Dragon.png */,
 				A42FBB391A07356D00068753 /* Dragon.xml */,
@@ -2193,6 +2202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A449FF6C1A07822C00D5320F /* NewProject.ExportJson in Resources */,
 				A426182619E52C6900F55A32 /* fileLookup.plist in Resources */,
 				A426181B19E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
 				7855E0E1153FEF240059DD9A /* Default.png in Resources */,
@@ -2201,6 +2211,7 @@
 				A426182719E52C6900F55A32 /* HelloWorld.ccbi in Resources */,
 				A426181D19E52C6900F55A32 /* ccbParticleSmoke.png in Resources */,
 				A426181C19E52C6900F55A32 /* ccbParticleFire.png in Resources */,
+				A449FF6E1A07822C00D5320F /* NewProject0.png in Resources */,
 				A42FBB3C1A07356D00068753 /* Dragon.xml in Resources */,
 				D4EF949A15BD2D8B00D803EB /* Icon-57.png in Resources */,
 				D4EF949C15BD2D8E00D803EB /* Icon-114.png in Resources */,
@@ -2217,6 +2228,7 @@
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
 				A4036CC819DA628400EC18E5 /* Icon-152.png in Resources */,
 				A426182519E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
+				A449FF6D1A07822C00D5320F /* NewProject0.plist in Resources */,
 				A426182219E52C6900F55A32 /* ccbDefaultImages.plist in Resources */,
 				A426182819E52C6900F55A32 /* MainScene.ccbi in Resources */,
 				A42FBB3A1A07356D00068753 /* Dragon.plist in Resources */,

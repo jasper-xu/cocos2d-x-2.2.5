@@ -7,10 +7,6 @@
 //
 
 #include "HelloWorldStudio.h"
-#include "cocos-ext.h"
-
-USING_NS_CC;
-USING_NS_CC_EXT;
 
 //Scene* HelloWorldStudio::createScene()
 //{
@@ -95,7 +91,9 @@ bool HelloWorldStudio::init()
 	l->setPosition( ccp(origin.x + visibleSize.width * 0.5f, origin.y + visibleSize.height - 60) );
 //	this->addChild(l);
 	
-	CCArmatureDataManager::sharedArmatureDataManager()->addArmatureFileInfoAsync("Dragon.png", "Dragon.plist", "Dragon.xml", this, schedule_selector(HelloWorldStudio::dataLoaded));
+//	CCArmatureDataManager::sharedArmatureDataManager()->addArmatureFileInfoAsync("Dragon.png", "Dragon.plist", "Dragon.xml", this, schedule_selector(HelloWorldStudio::dataLoaded));
+	
+	CCArmatureDataManager::sharedArmatureDataManager()->addArmatureFileInfoAsync("NewProject.ExportJson", this, schedule_selector(HelloWorldStudio::dataLoaded));
 	
 	
 	
@@ -137,11 +135,47 @@ void HelloWorldStudio::dataLoaded(float percent)
 	CCSize visibleSize = CCDirector::sharedDirector()->getVisibleSize();
     CCPoint origin = CCDirector::sharedDirector()->getVisibleOrigin();
 	
-	cocos2d::extension::CCArmature *armature = NULL;
-    armature = cocos2d::extension::CCArmature::create("Dragon");
-    armature->getAnimation()->playWithIndex(1);
-    armature->getAnimation()->setSpeedScale(0.4f);
-    armature->setPosition(origin.x + visibleSize.width * 0.5f, origin.y + visibleSize.height * 0.5f - 60);
-    armature->setScale(0.6f);
+//	cocos2d::extension::CCArmature *armature = NULL;
+//    armature = cocos2d::extension::CCArmature::create("Dragon");
+//    armature->getAnimation()->playWithIndex(1);
+//    armature->getAnimation()->setSpeedScale(0.4f);
+//    armature->setPosition(origin.x + visibleSize.width * 0.5f, origin.y + visibleSize.height * 0.5f - 60);
+//    armature->setScale(0.6f);
+//    addChild(armature);
+	
+	cocos2d::extension::CCArmature *armature = cocos2d::extension::CCArmature::create("NewProject");
+    armature->getAnimation()->play("sheyao_huxi_deyi");
+    armature->getAnimation()->setSpeedScale(0.5);
+    armature->setPosition(origin.x + visibleSize.width * 0.5f, origin.y + visibleSize.height * 0.5f - 80);
+	armature->setScale(2.0f);
+	
+    /*
+     * Set armature's frame event callback function
+     * To disconnect this event, just setFrameEventCallFunc(NULL, NULL);
+     */
+    armature->getAnimation()->setFrameEventCallFunc(this, frameEvent_selector(HelloWorldStudio::onFrameEvent));
+	
     addChild(armature);
+	
+    schedule( schedule_selector(HelloWorldStudio::checkAction) );
+}
+
+void HelloWorldStudio::onFrameEvent(cocos2d::extension::CCBone *bone, const char *evt, int originFrameIndex, int currentFrameIndex)
+{
+    CCLOG("(%s) emit a frame event (%s) at frame index (%d).", bone->getName().c_str(), evt, currentFrameIndex);
+	
+	
+//    if (!this->getActionByTag(FRAME_EVENT_ACTION_TAG) || this->getActionByTag(FRAME_EVENT_ACTION_TAG)->isDone())
+//    {
+//        this->stopAllActions();
+//		
+//        CCActionInterval *action =  CCShatteredTiles3D::create(0.2f, CCSizeMake(16,12), 5, false);
+//        action->setTag(FRAME_EVENT_ACTION_TAG);
+//        this->runAction(action);
+//    }
+}
+void HelloWorldStudio::checkAction(float dt)
+{
+    if ( this->numberOfRunningActions() == 0 && this->getGrid() != NULL)
+        this->setGrid(NULL);
 }

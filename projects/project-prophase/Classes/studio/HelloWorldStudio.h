@@ -11,6 +11,10 @@
 
 #include <iostream>
 #include "cocos2d.h"
+#include "cocos-ext.h"
+
+USING_NS_CC;
+USING_NS_CC_EXT;
 
 class HelloWorldStudio : public cocos2d::CCLayer
 {
@@ -28,6 +32,9 @@ public:
     CREATE_FUNC(HelloWorldStudio);
 	
 	void dataLoaded(float percent);
+	
+	void onFrameEvent(cocos2d::extension::CCBone *bone, const char *evt, int originFrameIndex, int currentFrameIndex);
+    void checkAction(float dt);
 };
 
 #endif /* defined(__project_prophase__HelloWorldStudio__) */

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<AnimationProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <filePath>E:\工作文件\huluwa\蛇妖\sheyao\NewProject\NewProject.xml.animation</filePath>
+  <Version>0.0.0.0</Version>
+  <Name>NewProject</Name>
+  <ProjectDir>E:\工作文件\huluwa\蛇妖\sheyao\NewProject</ProjectDir>
+  <JsonFileName>NewProject.json</JsonFileName>
+  <Resources>E:\工作文件\huluwa\蛇妖\sheyao\NewProject\Resources</Resources>
+  <JsonFolder>E:\工作文件\huluwa\蛇妖\sheyao\NewProject\Json</JsonFolder>
+  <JsonList />
+  <ResourceFileList />
+  <CanvasSize>
+    <Width>0</Width>
+    <Height>0</Height>
+  </CanvasSize>
+  <bBatchImage>false</bBatchImage>
+</AnimationProject>
