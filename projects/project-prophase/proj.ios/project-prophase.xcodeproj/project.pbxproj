@@ -254,6 +254,8 @@
 		A4036CC719DA628400EC18E5 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = A4036CC419DA628400EC18E5 /* Icon-120.png */; };
 		A4036CC819DA628400EC18E5 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = A4036CC519DA628400EC18E5 /* Icon-152.png */; };
 		A4040E051A038C6A00D2F1E4 /* HelloWorldStudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4040E031A038C6A00D2F1E4 /* HelloWorldStudio.cpp */; };
+		A421D3B01A08B80D00502620 /* StudioUITest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A421D3AE1A08B80D00502620 /* StudioUITest.cpp */; };
+		A421D3E61A08BE0800502620 /* ccs-res in Resources */ = {isa = PBXBuildFile; fileRef = A421D3E51A08BE0800502620 /* ccs-res */; };
 		A426181A19E52C6900F55A32 /* ccbDefaultImages.plist in Resources */ = {isa = PBXBuildFile; fileRef = A426180619E52C6900F55A32 /* ccbDefaultImages.plist */; };
 		A426181B19E52C6900F55A32 /* ccbDefaultImages.png in Resources */ = {isa = PBXBuildFile; fileRef = A426180719E52C6900F55A32 /* ccbDefaultImages.png */; };
 		A426181C19E52C6900F55A32 /* ccbParticleFire.png in Resources */ = {isa = PBXBuildFile; fileRef = A426180819E52C6900F55A32 /* ccbParticleFire.png */; };
@@ -270,12 +272,6 @@
 		A426182719E52C6900F55A32 /* HelloWorld.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = A426181719E52C6900F55A32 /* HelloWorld.ccbi */; };
 		A426182819E52C6900F55A32 /* MainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = A426181819E52C6900F55A32 /* MainScene.ccbi */; };
 		A426182919E52C6900F55A32 /* MainScene.js in Sources */ = {isa = PBXBuildFile; fileRef = A426181919E52C6900F55A32 /* MainScene.js */; };
-		A42FBB3A1A07356D00068753 /* Dragon.plist in Resources */ = {isa = PBXBuildFile; fileRef = A42FBB371A07356D00068753 /* Dragon.plist */; };
-		A42FBB3B1A07356D00068753 /* Dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = A42FBB381A07356D00068753 /* Dragon.png */; };
-		A42FBB3C1A07356D00068753 /* Dragon.xml in Resources */ = {isa = PBXBuildFile; fileRef = A42FBB391A07356D00068753 /* Dragon.xml */; };
-		A449FF6C1A07822C00D5320F /* NewProject.ExportJson in Resources */ = {isa = PBXBuildFile; fileRef = A449FF691A07822C00D5320F /* NewProject.ExportJson */; };
-		A449FF6D1A07822C00D5320F /* NewProject0.plist in Resources */ = {isa = PBXBuildFile; fileRef = A449FF6A1A07822C00D5320F /* NewProject0.plist */; };
-		A449FF6E1A07822C00D5320F /* NewProject0.png in Resources */ = {isa = PBXBuildFile; fileRef = A449FF6B1A07822C00D5320F /* NewProject0.png */; };
 		A49B443119E69064007BE1E2 /* smoke.plist in Resources */ = {isa = PBXBuildFile; fileRef = A49B443019E69064007BE1E2 /* smoke.plist */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
@@ -824,6 +820,9 @@
 		A4036CC519DA628400EC18E5 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = SOURCE_ROOT; };
 		A4040E031A038C6A00D2F1E4 /* HelloWorldStudio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldStudio.cpp; sourceTree = "<group>"; };
 		A4040E041A038C6A00D2F1E4 /* HelloWorldStudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldStudio.h; sourceTree = "<group>"; };
+		A421D3AE1A08B80D00502620 /* StudioUITest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StudioUITest.cpp; sourceTree = "<group>"; };
+		A421D3AF1A08B80D00502620 /* StudioUITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudioUITest.h; sourceTree = "<group>"; };
+		A421D3E51A08BE0800502620 /* ccs-res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ccs-res"; sourceTree = "<group>"; };
 		A426180619E52C6900F55A32 /* ccbDefaultImages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ccbDefaultImages.plist; sourceTree = "<group>"; };
 		A426180719E52C6900F55A32 /* ccbDefaultImages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccbDefaultImages.png; sourceTree = "<group>"; };
 		A426180819E52C6900F55A32 /* ccbParticleFire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccbParticleFire.png; sourceTree = "<group>"; };
@@ -840,12 +839,6 @@
 		A426181719E52C6900F55A32 /* HelloWorld.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelloWorld.ccbi; sourceTree = "<group>"; };
 		A426181819E52C6900F55A32 /* MainScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainScene.ccbi; sourceTree = "<group>"; };
 		A426181919E52C6900F55A32 /* MainScene.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MainScene.js; sourceTree = "<group>"; };
-		A42FBB371A07356D00068753 /* Dragon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Dragon.plist; sourceTree = "<group>"; };
-		A42FBB381A07356D00068753 /* Dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dragon.png; sourceTree = "<group>"; };
-		A42FBB391A07356D00068753 /* Dragon.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Dragon.xml; sourceTree = "<group>"; };
-		A449FF691A07822C00D5320F /* NewProject.ExportJson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NewProject.ExportJson; sourceTree = "<group>"; };
-		A449FF6A1A07822C00D5320F /* NewProject0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewProject0.plist; sourceTree = "<group>"; };
-		A449FF6B1A07822C00D5320F /* NewProject0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewProject0.png; sourceTree = "<group>"; };
 		A49B443019E69064007BE1E2 /* smoke.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = smoke.plist; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -1999,7 +1992,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A42FBB351A07356D00068753 /* ccs-res */,
+				A421D3E51A08BE0800502620 /* ccs-res */,
 				A49B442F19E69064007BE1E2 /* particle */,
 				A426180519E52C6900F55A32 /* ccbResources */,
 				A426181619E52C6900F55A32 /* fileLookup.plist */,
@@ -2049,6 +2042,8 @@
 			children = (
 				A4040E031A038C6A00D2F1E4 /* HelloWorldStudio.cpp */,
 				A4040E041A038C6A00D2F1E4 /* HelloWorldStudio.h */,
+				A421D3AE1A08B80D00502620 /* StudioUITest.cpp */,
+				A421D3AF1A08B80D00502620 /* StudioUITest.h */,
 			);
 			path = studio;
 			sourceTree = "<group>";
@@ -2102,27 +2097,6 @@
 				A426181519E52C6900F55A32 /* ccbDefaultImages.png */,
 			);
 			path = "resources-iphonehd";
-			sourceTree = "<group>";
-		};
-		A42FBB351A07356D00068753 /* ccs-res */ = {
-			isa = PBXGroup;
-			children = (
-				A42FBB361A07356D00068753 /* armature */,
-			);
-			path = "ccs-res";
-			sourceTree = "<group>";
-		};
-		A42FBB361A07356D00068753 /* armature */ = {
-			isa = PBXGroup;
-			children = (
-				A449FF691A07822C00D5320F /* NewProject.ExportJson */,
-				A449FF6A1A07822C00D5320F /* NewProject0.plist */,
-				A449FF6B1A07822C00D5320F /* NewProject0.png */,
-				A42FBB371A07356D00068753 /* Dragon.plist */,
-				A42FBB381A07356D00068753 /* Dragon.png */,
-				A42FBB391A07356D00068753 /* Dragon.xml */,
-			);
-			path = armature;
 			sourceTree = "<group>";
 		};
 		A49B442F19E69064007BE1E2 /* particle */ = {
@@ -2202,7 +2176,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A449FF6C1A07822C00D5320F /* NewProject.ExportJson in Resources */,
 				A426182619E52C6900F55A32 /* fileLookup.plist in Resources */,
 				A426181B19E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
 				7855E0E1153FEF240059DD9A /* Default.png in Resources */,
@@ -2211,15 +2184,12 @@
 				A426182719E52C6900F55A32 /* HelloWorld.ccbi in Resources */,
 				A426181D19E52C6900F55A32 /* ccbParticleSmoke.png in Resources */,
 				A426181C19E52C6900F55A32 /* ccbParticleFire.png in Resources */,
-				A449FF6E1A07822C00D5320F /* NewProject0.png in Resources */,
-				A42FBB3C1A07356D00068753 /* Dragon.xml in Resources */,
 				D4EF949A15BD2D8B00D803EB /* Icon-57.png in Resources */,
 				D4EF949C15BD2D8E00D803EB /* Icon-114.png in Resources */,
 				A426181A19E52C6900F55A32 /* ccbDefaultImages.plist in Resources */,
 				D4EF949E15BD2D9600D803EB /* Icon-72.png in Resources */,
 				A426182019E52C6900F55A32 /* ccbDefaultImages.plist in Resources */,
 				A426182319E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
-				A42FBB3B1A07356D00068753 /* Dragon.png in Resources */,
 				A426182119E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
 				D4EF94A015BD2D9800D803EB /* Icon-144.png in Resources */,
 				A426182419E52C6900F55A32 /* ccbDefaultImages.plist in Resources */,
@@ -2228,13 +2198,12 @@
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
 				A4036CC819DA628400EC18E5 /* Icon-152.png in Resources */,
 				A426182519E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
-				A449FF6D1A07822C00D5320F /* NewProject0.plist in Resources */,
 				A426182219E52C6900F55A32 /* ccbDefaultImages.plist in Resources */,
 				A426182819E52C6900F55A32 /* MainScene.ccbi in Resources */,
-				A42FBB3A1A07356D00068753 /* Dragon.plist in Resources */,
 				A426181E19E52C6900F55A32 /* ccbParticleSnow.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 				A4036CC719DA628400EC18E5 /* Icon-120.png in Resources */,
+				A421D3E61A08BE0800502620 /* ccs-res in Resources */,
 				A4036CC619DA628400EC18E5 /* Icon-76.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2263,6 +2232,7 @@
 				15A3D9091682F7D5002FB0C5 /* b2EdgeShape.cpp in Sources */,
 				15A3D90A1682F7D5002FB0C5 /* b2PolygonShape.cpp in Sources */,
 				15A3D90B1682F7D5002FB0C5 /* b2BlockAllocator.cpp in Sources */,
+				A421D3B01A08B80D00502620 /* StudioUITest.cpp in Sources */,
 				15A3D90C1682F7D5002FB0C5 /* b2Draw.cpp in Sources */,
 				15C0B54B196D412F007F909D /* CCActionEaseEx.cpp in Sources */,
 				15A3D90D1682F7D5002FB0C5 /* b2Math.cpp in Sources */,

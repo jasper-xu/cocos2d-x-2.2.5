@@ -4,6 +4,7 @@
 #include "IntroLoader.h"
 #include "Intro.h"
 #include "HelloWorldStudio.h"
+#include "StudioUITest.H"
 
 USING_NS_CC;
 
@@ -62,11 +63,17 @@ bool AppDelegate::applicationDidFinishLaunching() {
 //	particle->setPosition(ccp(winSize.width * 0.5f, winSize.height * 0.5f));
 //	pScene->addChild(particle);
 	
-	//	骨骼动画
+//	//	骨骼动画
+//	CCScene *pScene = CCScene::create();
+//    
+//    HelloWorldStudio *helloworldStudio = HelloWorldStudio::create();
+//	pScene->addChild(helloworldStudio);
+	
+	//	Studio UI
 	CCScene *pScene = CCScene::create();
     
-    HelloWorldStudio *helloworldStudio = HelloWorldStudio::create();
-	pScene->addChild(helloworldStudio);
+    StudioUITest* ui = StudioUITest::create();
+	pScene->addChild(ui);
 	
     // run
     pDirector->runWithScene(pScene);

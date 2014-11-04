@@ -4159,7 +4159,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 敏 宋 (259D4DU467)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -4194,6 +4194,7 @@
 					"\"$(SRCROOT)/../../../../external/libwebsockets/ios/lib\"",
 				);
 				PRODUCT_NAME = TestCpp;
+				PROVISIONING_PROFILE = "9cc29c01-fd55-4a05-84ed-2a4c5ec9c111";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -4205,7 +4206,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 敏 宋 (259D4DU467)";
 				COPY_PHASE_STRIP = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -4237,6 +4238,7 @@
 					"\"$(SRCROOT)/../../../../external/libwebsockets/ios/lib\"",
 				);
 				PRODUCT_NAME = TestCpp;
+				PROVISIONING_PROFILE = "9cc29c01-fd55-4a05-84ed-2a4c5ec9c111";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
