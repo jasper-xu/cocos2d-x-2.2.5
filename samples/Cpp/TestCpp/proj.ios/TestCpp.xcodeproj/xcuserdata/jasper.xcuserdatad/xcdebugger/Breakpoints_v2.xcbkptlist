@@ -23,7 +23,7 @@
                   symbolName = "__cxx_global_var_init5"
                   moduleName = "TestCpp"
                   urlString = "file://localhost/Users/jasper/Documents/private/prophase/cocos2d-x-2.2.5/samples/Cpp/TestCpp/classes/ExtensionsTest/ExtensionsTest.cpp"
-                  timestampString = "436775296.24187"
+                  timestampString = "436864475.799835"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "52"
@@ -37,7 +37,7 @@
                   symbolName = "__cxx_global_array_dtor"
                   moduleName = "TestCpp"
                   urlString = "file://localhost/Users/jasper/Documents/private/prophase/cocos2d-x-2.2.5/samples/Cpp/TestCpp/classes/ExtensionsTest/ExtensionsTest.cpp"
-                  timestampString = "436775296.242181"
+                  timestampString = "436864475.80021"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "52"
@@ -45,20 +45,6 @@
                   offsetFromSymbolStart = "44">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../classes/ExtensionsTest/ExtensionsTest.cpp"
-            timestampString = "436766043.961587"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -554,6 +540,54 @@
             startingLineNumber = "209"
             endingLineNumber = "209"
             landmarkName = "SceneEditorTestLayer::changeLoadTypeCallback( CCObject *pSender)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../classes/ExtensionsTest/ExtensionsTest.cpp"
+            timestampString = "436863968.624211"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "ExtensionsMainLayer::menuCallback(CCObject* pSender)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/ExtensionsTest/CocoStudioSceneTest/SceneEditorTest.cpp"
+            timestampString = "436864063.753629"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "SceneEditorTestLayer::onEnter()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Classes/ExtensionsTest/CocoStudioSceneTest/SceneEditorTest.cpp"
+            timestampString = "436864079.957609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
+            landmarkName = "LoadSceneEdtiorFileTest::onEnter()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -14,3 +14,9 @@ projects/project-prophase/proj.ios/project-prophase.xcodeproj/project.xcworkspac
 *.xcscheme
 
 cocos2dx/proj.mac/cocos2dx.xcodeproj/xcuserdata/jasper.xcuserdatad/xcschemes/xcschememanagement.plist
+
+*.xcuserstate
+
+*.xcbkptlist
+
+*.xcbkptlist

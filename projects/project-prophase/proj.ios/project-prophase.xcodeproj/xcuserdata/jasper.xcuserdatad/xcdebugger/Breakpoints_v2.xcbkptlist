@@ -9,13 +9,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../extensions/CocoStudio/Reader/SceneReader.cpp"
-            timestampString = "436780015.078238"
+            filePath = "../Classes/studio/StudioUITest.cpp"
+            timestampString = "436860787.176791"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "318"
-            endingLineNumber = "318"
-            landmarkName = "SceneReader::createObject(const rapidjson::Value &amp;root, cocos2d::CCNode* parent, AttachComponentType eAttachComponent"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "StudioUITest::init()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../extensions/CocoStudio/Reader/SceneReader.cpp"
+            timestampString = "436862375.067402"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "SceneReader::readJson(const char *pszFileName, rapidjson::Document &amp;doc)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,28 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../extensions/CocoStudio/Components/CCComRender.cpp"
-            timestampString = "436780035.669643"
+            timestampString = "436862375.067402"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
             landmarkName = "CCComRender::serialize(void* r)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../../extensions/CocoStudio/Reader/SceneReader.cpp"
-            timestampString = "436780158.526642"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "310"
-            endingLineNumber = "310"
-            landmarkName = "SceneReader::createObject(const rapidjson::Value &amp;root, cocos2d::CCNode* parent, AttachComponentType eAttachComponent"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

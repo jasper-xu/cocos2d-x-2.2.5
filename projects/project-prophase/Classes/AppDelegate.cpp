@@ -70,11 +70,12 @@ bool AppDelegate::applicationDidFinishLaunching() {
 //	pScene->addChild(helloworldStudio);
 	
 	//	Studio UI
+	CCSize winSize = CCDirector::sharedDirector()->getWinSize();
 	CCScene *pScene = CCScene::create();
     
     StudioUITest* ui = StudioUITest::create();
 	pScene->addChild(ui);
-	
+//	ui->setPosition(winSize.width * 0.5f, winSize.height * 0.5f);
     // run
     pDirector->runWithScene(pScene);
 

@@ -272,6 +272,14 @@
 		A426182719E52C6900F55A32 /* HelloWorld.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = A426181719E52C6900F55A32 /* HelloWorld.ccbi */; };
 		A426182819E52C6900F55A32 /* MainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = A426181819E52C6900F55A32 /* MainScene.ccbi */; };
 		A426182919E52C6900F55A32 /* MainScene.js in Sources */ = {isa = PBXBuildFile; fileRef = A426181919E52C6900F55A32 /* MainScene.js */; };
+		A48110811A09F6F700ACEB4F /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = A481107F1A09F6F700ACEB4F /* CloseNormal.png */; };
+		A48110821A09F6F700ACEB4F /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = A48110801A09F6F700ACEB4F /* CloseSelected.png */; };
+		A48110881A09FD3B00ACEB4F /* fishes in Resources */ = {isa = PBXBuildFile; fileRef = A48110831A09FD3B00ACEB4F /* fishes */; };
+		A48110891A09FD3B00ACEB4F /* Images in Resources */ = {isa = PBXBuildFile; fileRef = A48110841A09FD3B00ACEB4F /* Images */; };
+		A481108A1A09FD3B00ACEB4F /* Misc in Resources */ = {isa = PBXBuildFile; fileRef = A48110851A09FD3B00ACEB4F /* Misc */; };
+		A481108B1A09FD3B00ACEB4F /* Particles in Resources */ = {isa = PBXBuildFile; fileRef = A48110861A09FD3B00ACEB4F /* Particles */; };
+		A481108C1A09FD3B00ACEB4F /* startMenu in Resources */ = {isa = PBXBuildFile; fileRef = A48110871A09FD3B00ACEB4F /* startMenu */; };
+		A48110901A0A011800ACEB4F /* acts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A481108E1A0A011800ACEB4F /* acts.cpp */; };
 		A49B443119E69064007BE1E2 /* smoke.plist in Resources */ = {isa = PBXBuildFile; fileRef = A49B443019E69064007BE1E2 /* smoke.plist */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
@@ -839,6 +847,15 @@
 		A426181719E52C6900F55A32 /* HelloWorld.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelloWorld.ccbi; sourceTree = "<group>"; };
 		A426181819E52C6900F55A32 /* MainScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainScene.ccbi; sourceTree = "<group>"; };
 		A426181919E52C6900F55A32 /* MainScene.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MainScene.js; sourceTree = "<group>"; };
+		A481107F1A09F6F700ACEB4F /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
+		A48110801A09F6F700ACEB4F /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
+		A48110831A09FD3B00ACEB4F /* fishes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fishes; sourceTree = "<group>"; };
+		A48110841A09FD3B00ACEB4F /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		A48110851A09FD3B00ACEB4F /* Misc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Misc; sourceTree = "<group>"; };
+		A48110861A09FD3B00ACEB4F /* Particles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Particles; sourceTree = "<group>"; };
+		A48110871A09FD3B00ACEB4F /* startMenu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = startMenu; sourceTree = "<group>"; };
+		A481108E1A0A011800ACEB4F /* acts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = acts.cpp; sourceTree = "<group>"; };
+		A481108F1A0A011800ACEB4F /* acts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = acts.h; sourceTree = "<group>"; };
 		A49B443019E69064007BE1E2 /* smoke.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = smoke.plist; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -1992,6 +2009,13 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A48110831A09FD3B00ACEB4F /* fishes */,
+				A48110841A09FD3B00ACEB4F /* Images */,
+				A48110851A09FD3B00ACEB4F /* Misc */,
+				A48110861A09FD3B00ACEB4F /* Particles */,
+				A48110871A09FD3B00ACEB4F /* startMenu */,
+				A481107F1A09F6F700ACEB4F /* CloseNormal.png */,
+				A48110801A09F6F700ACEB4F /* CloseSelected.png */,
 				A421D3E51A08BE0800502620 /* ccs-res */,
 				A49B442F19E69064007BE1E2 /* particle */,
 				A426180519E52C6900F55A32 /* ccbResources */,
@@ -2040,6 +2064,8 @@
 		A4040E021A038C5500D2F1E4 /* studio */ = {
 			isa = PBXGroup;
 			children = (
+				A481108E1A0A011800ACEB4F /* acts.cpp */,
+				A481108F1A0A011800ACEB4F /* acts.h */,
 				A4040E031A038C6A00D2F1E4 /* HelloWorldStudio.cpp */,
 				A4040E041A038C6A00D2F1E4 /* HelloWorldStudio.h */,
 				A421D3AE1A08B80D00502620 /* StudioUITest.cpp */,
@@ -2176,28 +2202,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A481108A1A09FD3B00ACEB4F /* Misc in Resources */,
 				A426182619E52C6900F55A32 /* fileLookup.plist in Resources */,
 				A426181B19E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
 				7855E0E1153FEF240059DD9A /* Default.png in Resources */,
 				A426181F19E52C6900F55A32 /* ccbParticleStars.png in Resources */,
 				A49B443119E69064007BE1E2 /* smoke.plist in Resources */,
 				A426182719E52C6900F55A32 /* HelloWorld.ccbi in Resources */,
+				A481108B1A09FD3B00ACEB4F /* Particles in Resources */,
 				A426181D19E52C6900F55A32 /* ccbParticleSmoke.png in Resources */,
+				A48110811A09F6F700ACEB4F /* CloseNormal.png in Resources */,
+				A48110881A09FD3B00ACEB4F /* fishes in Resources */,
 				A426181C19E52C6900F55A32 /* ccbParticleFire.png in Resources */,
 				D4EF949A15BD2D8B00D803EB /* Icon-57.png in Resources */,
 				D4EF949C15BD2D8E00D803EB /* Icon-114.png in Resources */,
 				A426181A19E52C6900F55A32 /* ccbDefaultImages.plist in Resources */,
 				D4EF949E15BD2D9600D803EB /* Icon-72.png in Resources */,
 				A426182019E52C6900F55A32 /* ccbDefaultImages.plist in Resources */,
+				A48110821A09F6F700ACEB4F /* CloseSelected.png in Resources */,
 				A426182319E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
 				A426182119E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
 				D4EF94A015BD2D9800D803EB /* Icon-144.png in Resources */,
 				A426182419E52C6900F55A32 /* ccbDefaultImages.plist in Resources */,
 				D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */,
 				D446FD6E16102124000ADA7B /* Default@2x.png in Resources */,
+				A48110891A09FD3B00ACEB4F /* Images in Resources */,
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
 				A4036CC819DA628400EC18E5 /* Icon-152.png in Resources */,
 				A426182519E52C6900F55A32 /* ccbDefaultImages.png in Resources */,
+				A481108C1A09FD3B00ACEB4F /* startMenu in Resources */,
 				A426182219E52C6900F55A32 /* ccbDefaultImages.plist in Resources */,
 				A426182819E52C6900F55A32 /* MainScene.ccbi in Resources */,
 				A426181E19E52C6900F55A32 /* ccbParticleSnow.png in Resources */,
@@ -2413,6 +2446,7 @@
 				15C0B58D196D412F007F909D /* ListViewReader.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
+				A48110901A0A011800ACEB4F /* acts.cpp in Sources */,
 				15C0B57E196D412F007F909D /* UILoadingBar.cpp in Sources */,
 				1AC3624916D4A1E8000847F2 /* AppController.mm in Sources */,
 				1AC3624B16D4A1E8000847F2 /* main.m in Sources */,
